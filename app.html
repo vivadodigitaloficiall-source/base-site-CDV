@@ -2,12 +2,20 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="viewpor			'/ferramentas':()=>import('./docs/assets/js/pages/ferramentas.js').then(m=>m.render(view)),
+			'/desafios':()=>import('./docs/assets/js/pages/desafios.js').then(m=>m.render(view)),
+			'/conquistas':()=>import('./docs/assets/js/pages/conquistas.js').then(m=>m.render(view)),
+			'/certificados':()=>import('./docs/assets/js/pages/certificados.js').then(m=>m.render(view)),
+			'/comunidade':()=>import('./docs/assets/js/pages/comunidade.js').then(m=>m.render(view)),
+			'/afiliados':()=>import('./docs/assets/js/pages/afiliados.js').then(m=>m.render(view)),
+			'/suporte':()=>import('./docs/assets/js/pages/suporte.js').then(m=>m.render(view)),
+			'/perfil':()=>import('./docs/assets/js/pages/perfil.js').then(m=>m.render(view)),
+			'/configuracoes':()=>import('./docs/assets/js/pages/configuracoes.js').then(m=>m.render(view)),t="width=device-width,initial-scale=1" />
 	<title>Dashboard • Código de Vendas VIP</title>
 	<meta name="description" content="Área de membros: dashboard, cursos, materiais, desafios, comunidade e mais." />
-	<link rel="stylesheet" href="assets/css/base.css" />
-	<link rel="stylesheet" href="assets/css/layout.css" />
-	<link rel="stylesheet" href="assets/css/components.css" />
+	<link rel="stylesheet" href="docs/assets/css/base.css" />
+	<link rel="stylesheet" href="docs/assets/css/layout.css" />
+	<link rel="stylesheet" href="docs/assets/css/components.css" />
 	<script>(function(){const r=document.documentElement;const saved=localStorage.getItem('theme');if(saved){r.dataset.theme=saved;}else{const prefers=matchMedia('(prefers-color-scheme: light)').matches?'light':'';r.dataset.theme=prefers;}r.classList.add('no-transition');setTimeout(()=>r.classList.remove('no-transition'),50);})();</script>
 	<script>try{if(!localStorage.getItem('profile')) location.replace('login.html');}catch{}</script>
 	<style>
@@ -78,19 +86,19 @@
 	<div id="modal-root"></div>
 	<div id="toast-root" aria-live="polite" aria-atomic="true"></div>
 	<script type="module">
-		import './assets/js/analytics.js';
-		import './assets/js/router.js';
-		import './assets/js/ui.js';
-		import './assets/js/components.js';
-		import './assets/js/store.js';
-		import './assets/js/auth.js';
+		import './docs/assets/js/analytics.js';
+		import './docs/assets/js/router.js';
+		import './docs/assets/js/ui.js';
+		import './docs/assets/js/components.js';
+		import './docs/assets/js/store.js';
+		import './docs/assets/js/auth.js';
 		const y=document.getElementById('year');if(y) y.textContent=new Date().getFullYear();
 		const view=document.getElementById('view');
 		const routes={
-			'/dashboard':()=>import('./assets/js/pages/dashboard.js').then(m=>m.render(view)),
-			'/cursos':()=>import('./assets/js/pages/cursos.js').then(m=>m.render(view)),
-			'/curso':()=>import('./assets/js/pages/curso-detalhe.js').then(m=>m.render(view)),
-			'/materiais':()=>import('./assets/js/pages/materiais.js').then(m=>m.render(view)),
+			'/dashboard':()=>import('./docs/assets/js/pages/dashboard.js').then(m=>m.render(view)),
+			'/cursos':()=>import('./docs/assets/js/pages/cursos.js').then(m=>m.render(view)),
+			'/curso':()=>import('./docs/assets/js/pages/curso-detalhe.js').then(m=>m.render(view)),
+			'/materiais':()=>import('./docs/assets/js/pages/materiais.js').then(m=>m.render(view)),
 			'/ferramentas':()=>import('./assets/js/pages/ferramentas.js').then(m=>m.render(view)),
 			'/desafios':()=>import('./assets/js/pages/desafios.js').then(m=>m.render(view)),
 			'/conquistas':()=>import('./assets/js/pages/conquistas.js').then(m=>m.render(view)),
