@@ -9,15 +9,15 @@
 	<meta property="og:title" content="Entrar • Código de Vendas VIP" />
 	<meta property="og:description" content="Acesse sua conta e continue sua evolução em vendas com trilhas, desafios e certificados." />
 	<meta property="og:url" content="https://codigodevendasvip.com.br/login.html" />
-	<meta property="og:image" content="https://codigodevendasvip.com.br/assets/img/og-cover.png" />
+	<meta property="og:image" content="https://codigodevendasvip.com.br/docs/assets/img/og-cover.png" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Entrar • Código de Vendas VIP" />
 	<meta name="twitter:description" content="Continue sua evolução em vendas com trilhas e desafios." />
-	<meta name="twitter:image" content="https://codigodevendasvip.com.br/assets/img/og-cover.png" />
+	<meta name="twitter:image" content="https://codigodevendasvip.com.br/docs/assets/img/og-cover.png" />
 	<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-	<link rel="stylesheet" href="assets/css/base.css" />
-	<link rel="stylesheet" href="assets/css/layout.css" />
-	<link rel="stylesheet" href="assets/css/components.css" />
+	<link rel="stylesheet" href="docs/assets/css/base.css" />
+	<link rel="stylesheet" href="docs/assets/css/layout.css" />
+	<link rel="stylesheet" href="docs/assets/css/components.css" />
 	<script>(function(){const r=document.documentElement;const saved=localStorage.getItem('theme');if(saved){r.dataset.theme=saved;}else{const prefers=matchMedia('(prefers-color-scheme: light)').matches?'light':'';r.dataset.theme=prefers;}r.classList.add('no-transition');setTimeout(()=>r.classList.remove('no-transition'),50);})();</script>
 	<style>
 		body{display:flex;min-height:100dvh;}
@@ -103,8 +103,8 @@
 	</div>
 	<div id="toast-root" aria-live="polite" aria-atomic="true"></div>
 	<script type="module">
-		import './assets/js/analytics.js';
-		import { loginEmail as loginEmailFn, resetPassword } from './assets/js/auth.js';
+		import './docs/assets/js/analytics.js';
+		import { loginEmail as loginEmailFn, resetPassword } from './docs/assets/js/auth.js';
 		const y=document.getElementById('year');if(y) y.textContent=new Date().getFullYear();
 		document.getElementById('backLanding')?.addEventListener('click',()=>location.href='index.html');
 		document.getElementById('themeToggle')?.addEventListener('click',()=>{const r=document.documentElement;const cur=r.dataset.theme==='light'?'':'light';r.dataset.theme=cur;localStorage.setItem('theme',cur);});
