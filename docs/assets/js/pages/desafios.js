@@ -2,7 +2,7 @@ import { requireAuth } from '../auth.js';
 import { track } from '../analytics.js';
 import { updateProgress, getProgress } from '../store.js';
 
-async function loadDesafios(){return fetch('assets/data/desafios.json').then(r=>r.json());}
+async function loadDesafios(){return fetch('docs/assets/data/desafios.json').then(r=>r.json());}
 
 export async function render(root){
 	const user=requireAuth();

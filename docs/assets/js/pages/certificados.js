@@ -3,8 +3,8 @@ import { requireAuth, requireLevel } from '../auth.js';
 import { track } from '../analytics.js';
 import { getProgress } from '../store.js';
 
-async function loadCursos(){return fetch('assets/data/cursos.json').then(r=>r.json());}
-async function loadModulos(){return fetch('assets/data/modulos-exemplo.json').then(r=>r.json());}
+async function loadCursos(){return fetch('docs/assets/data/cursos.json').then(r=>r.json());}
+async function loadModulos(){return fetch('docs/assets/data/modulos-exemplo.json').then(r=>r.json());}
 
 export async function render(root){
 	const user= requireAuth();

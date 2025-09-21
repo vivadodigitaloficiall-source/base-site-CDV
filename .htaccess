@@ -1,0 +1,29 @@
+# Configurações para servir os arquivos corretamente
+RewriteEngine On
+
+# Headers para módulos ES6
+<FilesMatch "\.(js|mjs)$">
+    Header set Content-Type "application/javascript"
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+
+# Headers para CSS
+<FilesMatch "\.css$">
+    Header set Content-Type "text/css"
+</FilesMatch>
+
+# Headers para JSON
+<FilesMatch "\.json$">
+    Header set Content-Type "application/json"
+</FilesMatch>
+
+# Permitir CORS para desenvolvimento
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+Header always set Access-Control-Allow-Headers "Content-Type, Authorization"
+
+# Cache para assets estáticos
+<FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot)$">
+    ExpiresActive On
+    ExpiresDefault "access plus 1 week"
+</FilesMatch>

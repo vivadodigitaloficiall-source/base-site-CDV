@@ -2,7 +2,7 @@ import { requireAuth } from '../auth.js';
 import { track } from '../analytics.js';
 
 async function loadCursos(){
-	const res = await fetch('assets/data/cursos.json');
+	const res = await fetch('docs/assets/data/cursos.json');
 	return res.json();
 }
 

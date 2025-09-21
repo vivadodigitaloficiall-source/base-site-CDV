@@ -1,7 +1,7 @@
 import { requireAuth } from '../auth.js';
 import { track } from '../analytics.js';
 
-async function loadMateriais(){return fetch('assets/data/materiais.json').then(r=>r.json());}
+async function loadMateriais(){return fetch('docs/assets/data/materiais.json').then(r=>r.json());}
 
 export async function render(root){
 	const user = requireAuth();

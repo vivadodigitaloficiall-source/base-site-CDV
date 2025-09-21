@@ -3,8 +3,8 @@ import { requireAuth } from '../auth.js';
 import { track } from '../analytics.js';
 import { getProgress } from '../store.js';
 
-async function loadConquistas(){return fetch('assets/data/conquistas.json').then(r=>r.json());}
-async function loadModulos(){return fetch('assets/data/modulos-exemplo.json').then(r=>r.json());}
+async function loadConquistas(){return fetch('docs/assets/data/conquistas.json').then(r=>r.json());}
+async function loadModulos(){return fetch('docs/assets/data/modulos-exemplo.json').then(r=>r.json());}
 
 function compute(progress, conquistas, modData){
 	const completedCourses = Object.entries(progress.courses || {}).filter(([cid, cdata])=>{

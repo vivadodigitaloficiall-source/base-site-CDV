@@ -92,6 +92,19 @@
 		import './docs/assets/js/components.js';
 		import './docs/assets/js/store.js';
 		import './docs/assets/js/auth.js';
+		
+		// Setup de usuário de teste para desenvolvimento
+		if(!localStorage.getItem('profile')){
+			const testUser = {
+				uid: 'test-user-123',
+				email: 'teste@codigodevendas.com',
+				displayName: 'Usuário Teste',
+				claims: { level: 'prata' }
+			};
+			localStorage.setItem('profile', JSON.stringify(testUser));
+			console.log('✅ Usuário de teste criado:', testUser);
+		}
+		
 		const y=document.getElementById('year');if(y) y.textContent=new Date().getFullYear();
 		const view=document.getElementById('view');
 		const routes={

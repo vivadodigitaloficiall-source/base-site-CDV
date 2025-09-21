@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup de Desenvolvimento - CDV</title>
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; line-height: 1.6; }
+        h1 { color: #0066cc; }
+        .warning { background: #fff3cd; border: 1px solid #ffc107; padding: 1rem; border-radius: 5px; margin: 1rem 0; }
+        .info { background: #d1ecf1; border: 1px solid #17a2b8; padding: 1rem; border-radius: 5px; margin: 1rem 0; }
+        .success { background: #d4edda; border: 1px solid #28a745; padding: 1rem; border-radius: 5px; margin: 1rem 0; }
+        code { background: #f8f9fa; padding: 0.2rem 0.4rem; border-radius: 3px; font-family: monospace; }
+        pre { background: #f8f9fa; padding: 1rem; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🚀 Setup de Desenvolvimento - Código de Vendas VIP</h1>
+    
+    <div class="warning">
+        <strong>⚠️ Problema de CORS Detectado</strong><br>
+        Os módulos ES6 não funcionam quando você abre arquivos HTML diretamente no navegador (protocolo <code>file://</code>). 
+        Você precisa servir os arquivos através de um servidor HTTP.
+    </div>
+
+    <h2>📋 Soluções Recomendadas</h2>
+
+    <h3>1. Servidor Python (Recomendado)</h3>
+    <div class="info">
+        <p>Se você tem Python instalado:</p>
+        <pre><code># Navegue até a pasta do projeto
+cd c:\Users\Admin\Documents\GitHub\base-site-CDV
+
+# Execute o servidor
+python -m http.server 8000
+
+# Ou use o script npm
+npm run start</code></pre>
+        <p>Depois acesse: <a href="http://localhost:8000">http://localhost:8000</a></p>
+    </div>
+
+    <h3>2. Live Server (VS Code)</h3>
+    <div class="info">
+        <p>Instale a extensão "Live Server" no VS Code:</p>
+        <ol>
+            <li>Abra o VS Code</li>
+            <li>Vá em Extensions (Ctrl+Shift+X)</li>
+            <li>Procure por "Live Server"</li>
+            <li>Instale a extensão</li>
+            <li>Clique com botão direito no <code>index.html</code></li>
+            <li>Selecione "Open with Live Server"</li>
+        </ol>
+    </div>
+
+    <h3>3. Node.js http-server</h3>
+    <div class="info">
+        <p>Se você tem Node.js instalado:</p>
+        <pre><code># Instalar globalmente
+npm install -g http-server
+
+# Executar na pasta do projeto
+http-server -p 8000 -c-1</code></pre>
+    </div>
+
+    <h2>🔧 Estrutura dos Arquivos</h2>
+    <div class="success">
+        <p>✅ Os caminhos dos arquivos foram corrigidos para:</p>
+        <ul>
+            <li><strong>CSS:</strong> <code>docs/assets/css/</code></li>
+            <li><strong>JavaScript:</strong> <code>docs/assets/js/</code></li>
+            <li><strong>Dados:</strong> <code>docs/assets/data/</code></li>
+            <li><strong>Imagens:</strong> <code>docs/assets/img/</code></li>
+        </ul>
+    </div>
+
+    <h2>📂 Estrutura Final</h2>
+    <pre><code>📁 base-site-CDV/
+├── 📄 index.html          (Landing page)
+├── 📄 login.html          (Página de login)
+├── 📄 app.html            (Dashboard da aplicação)
+├── 📄 404.html            (Página de erro)
+├── 📄 package.json        (Configurações npm)
+├── 📄 .htaccess           (Configurações servidor)
+└── 📁 docs/
+    └── 📁 assets/
+        ├── 📁 css/        (Estilos)
+        ├── 📁 js/         (Scripts)
+        ├── 📁 data/       (Dados JSON)
+        └── 📁 img/        (Imagens)</code></pre>
+
+    <div class="success">
+        <strong>🎉 Pronto!</strong><br>
+        Depois de iniciar o servidor, todos os módulos ES6 e imports funcionarão corretamente.
+    </div>
+
+    <p><em>Este arquivo pode ser removido após o setup estar funcionando.</em></p>
+</body>
+</html>

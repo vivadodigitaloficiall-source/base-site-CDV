@@ -1,0 +1,18 @@
+{
+  "name": "codigo-de-vendas-vip",
+  "version": "1.0.0",
+  "description": "Site estático para área de membros VIP",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": ["vendas", "educacao", "gamificacao"],
+  "author": "Código de Vendas VIP",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivadodigitaloficiall-source/base-site-CDV.git"
+  }
+}
