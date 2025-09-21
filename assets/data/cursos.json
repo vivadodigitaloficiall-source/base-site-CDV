@@ -1,0 +1,6 @@
+[
+	{"id":"c1","slug":"fundamentos-pipeline","titulo":"Fundamentos de Pipeline","descricao":"Estruture previsibilidade e cadência de geração de oportunidades.","capa":"assets/img/cursos/pipeline.webp","nivelMinimo":"bronze","xp":300},
+	{"id":"c2","slug":"follow-up-otimizado","titulo":"Follow-up Otimizado","descricao":"Aprimore timing e copy para aumentar respostas.","capa":"assets/img/cursos/follow.webp","nivelMinimo":"prata","xp":420},
+	{"id":"c3","slug":"negociacao-avancada","titulo":"Negociação Avançada","descricao":"Táticas de ancoragem, valor e fechamento estruturado.","capa":"assets/img/cursos/negociacao.webp","nivelMinimo":"ouro","xp":550},
+	{"id":"c4","slug":"estrategia-enterprise","titulo":"Estratégia Enterprise","descricao":"Gestão de ciclos longos multi-stakeholder.","capa":"assets/img/cursos/enterprise.webp","nivelMinimo":"diamante","xp":800}
+]

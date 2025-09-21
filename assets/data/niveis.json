@@ -1,0 +1,6 @@
+[
+	{"id":"bronze","ordem":0,"nome":"Bronze","xpMin":0,"beneficios":["Cursos essenciais","Desafios semanais","Badges iniciais"]},
+	{"id":"prata","ordem":1,"nome":"Prata","xpMin":800,"beneficios":["Ferramentas avançadas","Relatórios básicos","Mais desafios"]},
+	{"id":"ouro","ordem":2,"nome":"Ouro","xpMin":1800,"beneficios":["Playbooks premium","Mentorias coletivas","Análises comparativas"]},
+	{"id":"diamante","ordem":3,"nome":"Diamante","xpMin":3500,"beneficios":["Masterminds","Prioridade suporte","Labs experimentais"]}
+]

@@ -1,0 +1,5 @@
+[
+	{"id":"d1","titulo":"7 Dias Follow-up","prazo":"2025-10-01","xp":150,"nivelMinimo":"bronze"},
+	{"id":"d2","titulo":"Objeções Avançadas","prazo":"2025-10-08","xp":220,"nivelMinimo":"prata"},
+	{"id":"d3","titulo":"Negociação Valor","prazo":"2025-10-15","xp":300,"nivelMinimo":"ouro"}
+]

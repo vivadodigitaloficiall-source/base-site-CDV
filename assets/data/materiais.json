@@ -1,0 +1,6 @@
+[
+	{"id":"m-doc1","titulo":"Template Objeções","tipo":"pdf","descricao":"Respostas calibradas","url":"assets/files/template-objeções.pdf","nivelMinimo":"bronze"},
+	{"id":"m-doc2","titulo":"Planilha Forecast","tipo":"planilha","descricao":"Previsibilidade semanal","url":"assets/files/forecast.xlsx","nivelMinimo":"prata"},
+	{"id":"m-doc3","titulo":"Checklist Negociação","tipo":"pdf","descricao":"Checklist pré-call","url":"assets/files/check-neg.pdf","nivelMinimo":"ouro"},
+	{"id":"m-doc4","titulo":"Script Multi-stakeholder","tipo":"pdf","descricao":"Mapeie influenciadores","url":"assets/files/script-enterprise.pdf","nivelMinimo":"diamante"}
+]

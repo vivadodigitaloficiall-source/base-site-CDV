@@ -1,0 +1,6 @@
+[
+	{"id":"a1","nome":"Primeiro Curso","criterio":"Completar 1 curso","icone":"🏁","xp":50},
+	{"id":"a2","nome":"Streak 7","criterio":"7 dias seguidos","icone":"🔥","xp":70},
+	{"id":"a3","nome":"1000 XP","criterio":"Alcançar 1000 XP","icone":"⭐","xp":100},
+	{"id":"a4","nome":"Três Cursos","criterio":"Completar 3 cursos","icone":"🎯","xp":120}
+]

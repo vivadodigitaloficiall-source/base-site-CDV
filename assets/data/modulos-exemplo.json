@@ -1,0 +1,6 @@
+[
+	{"cursoId":"c1","modulos":[{"id":"m1","titulo":"Visão Geral de Pipeline","duracao":"07:30","xp":60},{"id":"m2","titulo":"Qualificação Inicial","duracao":"11:10","xp":80},{"id":"m3","titulo":"Forecast Básico","duracao":"09:40","xp":70}]},
+	{"cursoId":"c2","modulos":[{"id":"m1","titulo":"Psicologia de Follow-up","duracao":"08:20","xp":70},{"id":"m2","titulo":"Timing & Sequências","duracao":"10:05","xp":90},{"id":"m3","titulo":"Ferramentas & Métricas","duracao":"12:25","xp":110}]},
+	{"cursoId":"c3","modulos":[{"id":"m1","titulo":"Ancoragem de Valor","duracao":"09:30","xp":90},{"id":"m2","titulo":"Gestão de Objeções Complexas","duracao":"14:15","xp":120},{"id":"m3","titulo":"Fechamento Estruturado","duracao":"11:05","xp":140}]},
+	{"cursoId":"c4","modulos":[{"id":"m1","titulo":"Arquitetura de Conta","duracao":"13:40","xp":120},{"id":"m2","titulo":"Mapeamento Stakeholders","duracao":"16:05","xp":150},{"id":"m3","titulo":"Governança de Ciclo Longo","duracao":"18:30","xp":180}]}
+]
